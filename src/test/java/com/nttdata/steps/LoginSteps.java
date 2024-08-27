@@ -19,8 +19,8 @@ public class LoginSteps {
     }
 
     /**
-     * Escribir el usuario
-     * @param user el usuario
+     * Escribir el user
+     * @param user el email del usuario
      */
     public void typeUser(String user){
         WebElement userInputElement = driver.findElement(LoginPage.userInput);
